@@ -19,6 +19,7 @@ class m200914_042136_create_metacpa_table extends Migration
             'leads' => $this->string(30)->null(),
             'conversion_rate' => $this->string(30)->null(),
             'id_compain' => $this->string(30)->null()
+
         ]);
     }
 
